@@ -1,16 +1,38 @@
-.container {
-    padding: 5%;
+body {
+    background-image: url("img/body.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
-    font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 700;
     font-style: normal;
     text-align: center;
+}
+
+.text {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    justify-content: center;
 }
